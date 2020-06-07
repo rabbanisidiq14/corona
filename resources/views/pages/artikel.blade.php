@@ -5,6 +5,8 @@
 @endsection
 
 @section('content')
+<link rel="stylesheet" type="text/css" href="/assets/style.css">
+<body class="artikel1">
 
 <div class="row justify-content-center">
     <h2>{{$konten[0]->judul}}</h2>
@@ -14,5 +16,6 @@
         {{$konten[0]->konten}}
     </div>
 </div>
-
+	
+</body>
 @endsection

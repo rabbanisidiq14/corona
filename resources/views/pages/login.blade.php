@@ -5,11 +5,21 @@ Login
 @endsection
 
 @section('content')
+<link rel="stylesheet" type="text/css" href="/assets/style.css">
+<body class="lr">
+    
 
+
+    
+<br>
+<br>
+<br>
 <div class="row justify-content-center">
     <h1>Masuk</h1>
 </div>
+
 <div class="row justify-content-center">
+
     <form action="{{url()->current()}}/check" method="post">
         {{csrf_field()}}
         <div class="form-group">
@@ -23,4 +33,6 @@ Login
         <button type="submit" class="btn btn-primary">Login</button>
     </form>
 </div>
+</body>
+
 @endsection

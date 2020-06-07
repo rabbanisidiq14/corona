@@ -5,6 +5,9 @@ Home
 @endsection
 
 @section('content')
+<link rel="stylesheet" type="text/css" href="assets/style.css">
+<body class="main">
+    
 
 <div class="container">
     <div id="kopi-covid" class="row justify-content-center"></div>
@@ -34,5 +37,5 @@ Home
         @endforeach
     </div>
 </div>
-
+</body>
 @endsection

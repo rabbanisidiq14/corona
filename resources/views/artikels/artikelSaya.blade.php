@@ -5,6 +5,8 @@ Artikel Saya
 @endsection
 
 @section('content')
+<link rel="stylesheet" type="text/css" href="/assets/style.css">
+<body class="sam">
 <div class="row justify-content-center">
     <h2>Artikel Saya</h2>
 </div>
@@ -32,4 +34,5 @@ Artikel Saya
         @endforeach
     </table>
 </div>
+</body>
 @endsection

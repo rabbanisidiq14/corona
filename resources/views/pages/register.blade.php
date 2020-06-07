@@ -5,6 +5,16 @@ Register
 @endsection
 
 @section('content')
+<link rel="stylesheet" type="text/css" href="/assets/style.css">
+<body class="lr">
+    
+
+
+    
+<br>
+<br>
+<br>
+<link rel="stylesheet" type="text/css" href="assets/style.css">
 <div class="row justify-content-center">
     <h1>Daftar</h1>
 </div>
@@ -26,4 +36,5 @@ Register
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>
 </div>
+</body>
 @endsection

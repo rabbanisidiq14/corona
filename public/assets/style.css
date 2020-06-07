@@ -1,0 +1,26 @@
+.lr{
+	background-image: url(bg1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.main{
+	background-image: url(bg2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.artikel1{
+	background-image: url(bg4.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+}
+.sam{
+	background-image: url(bg5.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+}
+table{
+	background: white;
+}

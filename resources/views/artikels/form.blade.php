@@ -5,6 +5,8 @@
 @endsection
 
 @section('content')
+<link rel="stylesheet" type="text/css" href="/assets/style.css">
+<body class="sam">
 <div class="row justify-content-center m-2">
     <h2>{{$tipe == 'buat'?'Buat ':'Edit '}}Artikel</h2>
 </div>

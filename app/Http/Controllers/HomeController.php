@@ -15,7 +15,6 @@ class HomeController extends Controller
         ->select('tb_konten.*','users.username','users.email','users.role')
         ->orderBy('id','desc')
         ->get();
-        // $data['status'] = DB::table('tb_status')->get();
         return view('home',$data);
     }
     public function artikel($id=null, Request $request){
