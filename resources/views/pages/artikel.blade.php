@@ -5,7 +5,6 @@
 @endsection
 
 @section('content')
-<link rel="stylesheet" type="text/css" href="/assets/style.css">
 <body class="artikel1">
 
 <div class="row justify-content-center">

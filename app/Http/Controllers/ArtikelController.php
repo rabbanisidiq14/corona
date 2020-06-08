@@ -86,6 +86,6 @@ class ArtikelController extends Controller
         ->where('username',$username)
         ->where('tb_konten.id',$id)
         ->delete();
-        return redirect(url('/artikel/daftar'));
+        return redirect(url('/artikel/daftar'));    
     }
 }

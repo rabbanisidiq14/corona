@@ -5,7 +5,6 @@ Login
 @endsection
 
 @section('content')
-<link rel="stylesheet" type="text/css" href="/assets/style.css">
 <body class="lr">
     
 

@@ -5,7 +5,6 @@ Home
 @endsection
 
 @section('content')
-<link rel="stylesheet" type="text/css" href="assets/style.css">
 <body class="main">
     
 

@@ -5,8 +5,6 @@ Profile
 @endsection
 
 @section('content')
-<link rel="stylesheet" type="text/css" href="assets/style.css">
-<link rel="stylesheet" type="text/css" href="/assets/style.css">
 <body class="sam">
 <div class="row justify-content-center">
     <h2>Profile</h2>
